@@ -19,7 +19,7 @@ def fx_i(elem):
     elem_2 = np.multiply(elem, elem)
     return np.sum(elem_2)
 
-for y in range (0, 900):
+for y in range (0, 500):
   X = sorted(X, key=fx_i)
   # Evaluate
   fx = np.sum(
